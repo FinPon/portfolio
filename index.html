@@ -14,11 +14,26 @@
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
     </head>
     <body>
-        <link rel="html" href="common/navbar.html">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+        <nav class='navbar navbar-expand-sm '>
+            <div class='container-fluid'>
+                <a href='#' class='navbar-brand'>Fiber</a>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" class="navbar-toggler"><span class='navbar-toggler-icon'></span></button>
+                <div class='collapse navbar-collapse' id='navbar-menu'>
+                    <ul class='navbar-nav'>
+                        <li><a href='#' class='nav-link'>Community</a></li>
+                        <li><a href='#' class='nav-link'>Pricing</a></li>
+                        <li><a href='#' class='nav-link'>Features</a></li>
+                    </ul>
+                    <div class="cta ms-auto">
+                        <button class="cta__secondary">Sign In</button>
+                        <button class="cta__primary">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <h1>Hello World!</h1>
         
         <script src="js/bootstrap/bootstrap.min.js" async defer></script>
