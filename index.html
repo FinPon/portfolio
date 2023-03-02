@@ -25,7 +25,7 @@
                     <ul class='navbar-nav'>
                         <li><a href='#' class='nav-link'>Portfolio</a></li>
                         <li><a href='#' class='nav-link'>About</a></li>
-                        <li><a href='#' class='nav-link'>Contact</a></li>
+                        <li><a href='#contact' class='nav-link'>Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,6 +33,29 @@
         <br></br>
         <div>
         <h1>Hello World!</h1>
+        </div>
+        <br></br>
+        <div>
+            <h4 id="contact">Contact</h4>
+            <form>
+                <div class="row-cols-auto">
+                    <div class="row-auto" style="padding-bottom: 10px;">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="row-auto" style="padding-bottom: 10px;">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                  <br></br>
+                  <div class="row-cols-auto">
+                    <div class="col-auto">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@somwhere.com">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                </div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Submit</button>
+              </form>
         </div>
         <script src="js/bootstrap/bootstrap.min.js" async defer></script>
         <script src="js/jquery/jquery-3.6.3.min.js" async defer></script>
