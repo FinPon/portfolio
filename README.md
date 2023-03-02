@@ -1,4 +1,3 @@
 # portfolio
-FinPon Consultancy Portfolio
 
-George!
+A basic WIP portfolio webpage designed to be hosted on github pages
