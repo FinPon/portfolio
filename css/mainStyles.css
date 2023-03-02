@@ -1,6 +1,12 @@
 body {
     background-color: #FBF8F3;
   }
+
+h1 {
+    text-align: center;
+    border: none;
+    padding: 12px 24px;
+}
   
   a, .nav-link{
     color: #000000;
@@ -8,21 +14,6 @@ body {
   
   .navbar-brand{
     font-weight: 700;
-  }
-  
-  .cta__secondary{
-    background-color: transparent;
-    border: none;
-    padding: 12px 24px;
-  }
-  
-  .cta__primary{
-    background-color: #4D13D1;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 500;
   }
   
   .navbar-toggler-icon {
