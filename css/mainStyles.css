@@ -13,7 +13,13 @@ body {
   }
 
 section {
-margin: 20% 0;
+margin: 5% 0;
+}
+
+@media all and (max-width: 500px;) {
+    section, h1, p {
+        margin: 20% 0;
+    }
 }
 
 h1 {
