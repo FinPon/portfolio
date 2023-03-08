@@ -24,12 +24,13 @@ margin: 2% 5%;
     }
 }
 
-h1, h3, .blurb {
+h3, .blurb {
     text-align: left;
     border: 12px 24px;
     padding: 12px 0;
     max-width: 80%;
 }
+
 
 h4 {
     text-align: center;
